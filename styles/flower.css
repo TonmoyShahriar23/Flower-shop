@@ -17,7 +17,6 @@
 
 nav {
     justify-content: baseline;
-    margin: 0px 150px 240px 240px;
 
 }
 
@@ -29,18 +28,37 @@ nav {
 }
 
 .banner {
-    padding: 10px 240px;
+    padding: 10px 240px 0px 240px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.banner .navpic {
-    width: 500px;
-
-}
+.banner .navpic {}
 
 .navpic {
     width: 635px;
     height: 800px;
     flex-shrink: 0;
+    margin-bottom: 0;
+}
+
+.heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+}
+
+.pera {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
 }
