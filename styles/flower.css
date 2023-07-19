@@ -1,0 +1,46 @@
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+nav {
+    justify-content: baseline;
+    margin: 0px 150px 240px 240px;
+
+}
+
+.header {
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    padding: 10px 240px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .navpic {
+    width: 500px;
+
+}
+
+.navpic {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
